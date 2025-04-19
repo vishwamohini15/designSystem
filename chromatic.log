@@ -1,0 +1,37 @@
+14:40:56.040 Chromatic CLI v11.28.2
+             https://www.chromatic.com/docs/cli 
+ 
+14:40:56.200 Authenticating with Chromatic 
+14:40:56.202     → Connecting to https://index.chromatic.com
+14:40:59.271 Authenticated with Chromatic
+                 → Using project token '****************7ac3'
+14:40:59.274 Retrieving git information
+14:40:59.856 × Found only one commit
+             This typically means you have ran into one of the following scenarios:
+             - You've checked out a shallow copy of the Git repository, which some CI systems do by default.
+               In order for Chromatic to correctly determine baseline commits, we need access to the full Git history graph.
+               Refer to your CI provider's documentation for details.
+             - You've only made a single commit so far.  
+               Please make at least one additional commit in order for Chromatic to be able to detect what's changed.
+14:40:59.859 git info: {"commit":{"commit":"9341edb621f4a4b3673efb3c44f7a1b2b067b7a0","committedAt":1745049417000,"committerEmail":"vishwamohini0015@gmail.com","committerName":"vishwamohini15"},"branch":"main","fromCI":false}
+14:41:03.408 App firstBuild: %o, lastBuild: %o {"committedAt":1745049417000} {"commit":"9341edb621f4a4b3673efb3c44f7a1b2b067b7a0","committedAt":1745049417000}
+14:41:03.527 Adding last branch build commit 9341edb621f4a4b3673efb3c44f7a1b2b067b7a0 to commits with builds
+14:41:03.529 step: checking 20 up to 1745049417
+14:41:03.530 step: commitsWithBuilds: 9341edb621f4a4b3673efb3c44f7a1b2b067b7a0
+14:41:03.532 step: commitsWithoutBuilds:
+14:41:03.533 running git rev-list HEAD       --since 1745049417       -n 20 --not 9341edb621f4a4b3673efb3c44f7a1b2b067b7a0
+14:41:03.620 command output:
+14:41:03.622 step: candidateCommits: , visitedCommitsWithoutBuilds:
+14:41:03.623 step: no candidateCommits; we are done
+14:41:06.284 Final commitsWithBuilds: 9341edb621f4a4b3673efb3c44f7a1b2b067b7a0
+14:41:06.288 running git rev-list 9341edb621f4a4b3673efb3c44f7a1b2b067b7a0 --not "9341edb621f4a4b3673efb3c44f7a1b2b067b7a0^@"
+14:41:06.407 command output: 9341edb621f4a4b3673efb3c44f7a1b2b067b7a0
+14:41:06.408 Found parentCommits: 9341edb621f4a4b3673efb3c44f7a1b2b067b7a0
+14:41:09.863 Skipping build
+                 → Skipping rebuild of an already fully passed/accepted build
+14:41:09.867 i Skipping rebuild of an already fully passed/accepted build
+             A build for the same commit as the last build on the branch is considered a rebuild.
+             If the last build is passed or accepted, the rebuild is skipped because it shouldn't change anything.
+             You can override this using the --force-rebuild flag.
+14:41:09.874 Tasks completed
+14:41:09.897 i Wrote Chromatic diagnostics report to chromatic-diagnostics.json

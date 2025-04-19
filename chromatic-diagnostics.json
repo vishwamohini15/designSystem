@@ -1,0 +1,152 @@
+{
+  "configuration": {},
+  "exitCode": 0,
+  "exitCodeKey": "OK",
+  "flags": {
+    "debug": true,
+    "outputDir": [],
+    "storybookBuildDir": [],
+    "externals": [],
+    "onlyStoryFiles": [],
+    "onlyStoryNames": [],
+    "untraced": [],
+    "fileHashing": true,
+    "interactive": true,
+    "appCode": []
+  },
+  "git": {
+    "version": "2.45.0.windows.1",
+    "gitUserEmail": "vishwamohini0015@gmail.com",
+    "uncommittedHash": "fatal: ambiguous argument 'diff': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'\ne69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "rootPath": "C:/Users/hp/Downloads/intrenship-assig",
+    "commit": "9341edb621f4a4b3673efb3c44f7a1b2b067b7a0",
+    "committedAt": 1745049417000,
+    "committerEmail": "vishwamohini0015@gmail.com",
+    "committerName": "vishwamohini15",
+    "branch": "main",
+    "slug": "vishwamohini15/designsystem",
+    "fromCI": false,
+    "parentCommits": [
+      "9341edb621f4a4b3673efb3c44f7a1b2b067b7a0"
+    ]
+  },
+  "input": [],
+  "isOnboarding": false,
+  "options": {
+    "fromCI": false,
+    "inAction": false,
+    "dryRun": false,
+    "debug": true,
+    "autoAcceptChanges": false,
+    "exitZeroOnChanges": false,
+    "exitOnceUploaded": false,
+    "diagnosticsFile": "chromatic-diagnostics.json",
+    "fileHashing": true,
+    "interactive": false,
+    "isLocalBuild": false,
+    "originalArgv": [
+      "--project-token=chpt_488a9726b7f7ac3",
+      "--debug"
+    ],
+    "logFile": "chromatic.log",
+    "buildScriptName": "build-storybook",
+    "storybookLogFile": "build-storybook.log",
+    "branchName": ""
+  },
+  "packageJson": {
+    "name": "design-system",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/dom": "^10.4.0",
+      "@testing-library/jest-dom": "^6.6.3",
+      "@testing-library/react": "^16.3.0",
+      "@testing-library/user-event": "^13.5.0",
+      "@types/jest": "^27.5.2",
+      "@types/node": "^16.18.126",
+      "@types/react": "^19.1.2",
+      "@types/react-dom": "^19.1.2",
+      "ajv": "^8.17.1",
+      "ajv-keywords": "^5.1.0",
+      "clsx": "^2.1.1",
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0",
+      "react-scripts": "5.0.1",
+      "typescript": "^4.9.5",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "storybook": "storybook dev -p 6006",
+      "build-storybook": "storybook build",
+      "chromatic": "npx chromatic --project-token=chpt_488a9726b7f7ac3"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest",
+        "plugin:storybook/recommended"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@storybook/addon-essentials": "^8.6.12",
+      "@storybook/addon-interactions": "^8.6.12",
+      "@storybook/addon-onboarding": "^8.6.12",
+      "@storybook/blocks": "^8.6.12",
+      "@storybook/preset-create-react-app": "^8.6.12",
+      "@storybook/react": "^8.6.12",
+      "@storybook/react-webpack5": "^8.6.12",
+      "@storybook/test": "^8.6.12",
+      "chromatic": "^11.28.2",
+      "eslint-plugin-storybook": "^0.12.0",
+      "prop-types": "^15.8.1",
+      "storybook": "^8.6.12",
+      "webpack": "^5.99.5"
+    }
+  },
+  "packagePath": "C:\\Users\\hp\\Downloads\\intrenship-assig\\package.json",
+  "projectMetadata": {
+    "hasRouter": true,
+    "creationDate": {},
+    "storybookCreationDate": {},
+    "numberOfCommitters": 1,
+    "numberOfAppFiles": 2
+  },
+  "rebuildForBuild": {
+    "id": "68035a5488056b5af7fcc421",
+    "status": "ACCEPTED",
+    "storybookUrl": "https://68035736e3ef9b816ace036c-gkdpbxbqgw.chromatic.com/",
+    "webUrl": "https://www.chromatic.com/build?appId=68035736e3ef9b816ace036c&number=1",
+    "specCount": 17,
+    "componentCount": 6,
+    "testCount": 17,
+    "changeCount": 17,
+    "errorCount": 0,
+    "actualTestCount": 0,
+    "actualCaptureCount": 17,
+    "inheritedCaptureCount": 0,
+    "interactionTestFailuresCount": 0
+  },
+  "rebuildForBuildId": "68035a5488056b5af7fcc421",
+  "sessionId": "b1748a7c-b36e-44bb-a9b4-960ea1d43459",
+  "skip": true,
+  "startedAt": 1745053859274,
+  "storybookUrl": "https://68035736e3ef9b816ace036c-gkdpbxbqgw.chromatic.com/",
+  "task": "gitInfo",
+  "userError": false
+}
