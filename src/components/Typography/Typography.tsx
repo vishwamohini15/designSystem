@@ -5,7 +5,7 @@ import { typography } from '../../theme/typography'; // ✅
 
 const variantClasses: Record<string, string> = typography;
 
-export const Typography: React.FC<TypographyProps> = ({ children, variant, className }) => {
+ const Typography: React.FC<TypographyProps> = ({ children, variant, className }) => {
   const Component = variant.startsWith('h') ? variant : 'p';
 
   return React.createElement(
@@ -16,3 +16,6 @@ export const Typography: React.FC<TypographyProps> = ({ children, variant, class
     children
   );
 };
+
+export default Typography;
+
